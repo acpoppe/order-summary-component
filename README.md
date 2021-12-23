@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/acpoppe/order-summary-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/acpoppe/order-summary-component)
+- Live Site URL: [Check it out](https://acpoppe.github.io/order-summary-component/)
 
 ## My process
 
