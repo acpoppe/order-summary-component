@@ -1,0 +1,151 @@
+img {
+  width: 100%;
+}
+
+h2 {
+  margin: 0.5em 0;
+  text-align: center;
+  color: var(--clr-neutral-dark-blue);
+}
+
+p {
+  color: var(--clr-neutral-desat-blue);
+  text-align: center;
+}
+
+button {
+  margin: 2em auto;
+  width: 100%;
+  padding: 1.25em;
+  color: white;
+  background-color: var(--clr-primary-bright-blue);
+  border: 0px;
+  border-radius: 1em;
+  font-weight: var(--fw-700);
+  font-size: 1rem;
+  box-shadow: 0 0.4rem 0.75rem 0.2rem lightgrey;
+}
+
+button:hover,
+button:focus {
+  cursor: pointer;
+  background-color: #776cf1;
+}
+
+.btn-container a {
+  margin: 0 auto;
+}
+
+.card-container {
+  margin: 1em auto;
+  max-width: 450px;
+  width: 90%;
+  background-color: white;
+  border-radius: 5%;
+  overflow: auto;
+  box-shadow: 0 0.4rem 0.75rem 0.2rem lightgrey;
+}
+
+.contents-container {
+  padding: 1em;
+  margin: 0.5em auto;
+  max-width: 350px;
+}
+
+.contents-container p {
+  margin: 1.5em 0;
+  line-height: 1.75rem;
+}
+
+.btn-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn-container a {
+  text-decoration: none;
+  color: var(--clr-neutral-desat-blue);
+  font-weight: var(--fw-700);
+  margin: 0 0 1rem 0;
+  /* Cancel Order */
+}
+
+.btn-container a:hover,
+.btn-container a:focus {
+  color: var(--clr-neutral-dark-blue);
+}
+
+.details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--clr-neutral-v-pale-blue);
+  border-radius: 1em;
+  padding: 1em;
+}
+
+.details-container a {
+  font-size: 0.9rem;
+  font-weight: var(--fw-700);
+  /* Change */
+}
+
+.details-container a:hover,
+.details-container a:focus {
+  color: #776cf1;
+  text-decoration: none;
+}
+
+.inner-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.plan-details p {
+  margin: 0;
+  margin-left: 1em;
+  padding: 0;
+  font-size: 0.9rem;
+}
+
+.music-notes {
+  width: 4rem;
+}
+
+.plan-name {
+  font-weight: var(--fw-900);
+  color: var(--clr-neutral-dark-blue);
+}
+
+@media (max-width: 300px) {
+  .details-container,
+  .inner-details {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .plan-details p {
+    margin: 0;
+  }
+}
+
+@media (max-width: 150px) {
+  h2 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+  }
+}
