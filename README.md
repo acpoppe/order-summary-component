@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.png)
+![](https://github.com/acpoppe/order-summary-component/blob/main/Screenshot.png)
 
 ### Links
 
